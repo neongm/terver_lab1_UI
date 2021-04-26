@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\functions">
+      <UniqueIdentifier>{d4d3dd2a-3713-43eb-bb4e-6b01f259a384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prnd_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="myPointSeries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Func.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="emperic.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_true.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel_density_estimation.cpp">
+      <Filter>Header Files\functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prnd_generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getminmax.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="temp_rand.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="converters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myPointSeries.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Func.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="emperic.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_true.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_density_estimation.h">
+      <Filter>Header Files\functions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
