@@ -1,7 +1,7 @@
 #include "graph_manager.h"
 
 
-GraphManager::graph_manager()
+GraphManager::GraphManager()
 {
 	values = {};
 }
@@ -113,7 +113,7 @@ void GraphManager::draw_true_uni(
 	_chart->Series[_series_name]->Points->Clear();
 	for (size_t i = 0; i < ys.size(); i++)
 	{                                                                     
-		_chart->Series[_series_name]->Points->AddXY(xs[i], ys[i]);
+		_chart->Series[_series_name]->Points->AddXY(xs[i], 1);
 	}
 }
 

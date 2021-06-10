@@ -11,7 +11,7 @@
 #include "function.h"
 
 prng_generator RAND = prng_generator(1);
-graph_manager GM = graph_manager();
+GraphManager GM = GraphManager();
 debug_handler DH = debug_handler();
 
 using namespace terverlab1UI;
@@ -60,7 +60,7 @@ System::Void MyForm::button1_Click(System::Object^ sender, System::EventArgs^ e)
 	GM.draw_parsen_estimation(hisrogram, "appox func", window_width);
 
 	GM.draw_imperical(emperical, "emperical");
-	GM.draw_true_norm(expectation, dispersion, emperical, "true func");
+	GM.draw_true_norm(expectation, dispersion, hisrogram, "true func");
 	DH.msg("done", true);
 }
 
@@ -84,7 +84,7 @@ System::Void MyForm::button_exponent_dist_Click(System::Object^ sender, System::
 		//2nd
 		GM.draw_imperical(emperical, "emperical");
 
-		GM.draw_true_exp(coefficient, emperical, "true func");
+		GM.draw_true_exp(coefficient, hisrogram, "true func");
 		DH.msg("done", true);
 
 	}
@@ -112,7 +112,7 @@ System::Void MyForm::button_uniform_dist_Click(System::Object^ sender, System::E
 	GM.draw_parsen_estimation(hisrogram, "appox func", window_width);
 
 	GM.draw_imperical(emperical, "emperical");
-	GM.draw_true_uni(emperical, "true func");
+	GM.draw_true_uni(hisrogram, "true func");
 	DH.msg("done", true);
 
 	DH.msg("done", true);

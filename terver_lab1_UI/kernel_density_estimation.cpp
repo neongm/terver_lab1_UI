@@ -8,10 +8,6 @@ double g_core(const double& _x)
 	return p1 * p2;
 }
 
-double e_core(const double& _r)
-{
-	return (3/4)*(1-pow(_r, 2));
-}
 
 double kernel_density_estimation::operator()(double _x) const
 {
@@ -21,7 +17,6 @@ double kernel_density_estimation::operator()(double _x) const
 	return (1 / (array.size() * window_width)) * kde_kernel_sum;
 
 }
-
 
 // auxilliary
 void kernel_density_estimation::set_window_width(double _window_width)

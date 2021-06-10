@@ -128,7 +128,7 @@ std::vector<myPoint> myPointSeries::histogram(size_t _amount_of_columns, bool y_
 	{
 		double x_lower_bound = minimum_x + step * i;
 		double x_upper_bound = x_lower_bound + step;
-		myPoint point = myPoint(x_upper_bound, (double)count_from_x1_to_x2(x_lower_bound, x_upper_bound));
+		myPoint point = myPoint(x_upper_bound-step/2, (double)count_from_x1_to_x2(x_lower_bound, x_upper_bound));
 		if (y_equals_chance) point.y /= size();
 		result_points.push_back(point);  
 	}
